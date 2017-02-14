@@ -126,7 +126,7 @@ export default class ViewTransformer extends React.Component {
                   {scale: this.state.scale},
                   {translateX: this.state.translateX},
                   {translateY: this.state.translateY},
-                  {rotation: this.props.rotation}
+                  {rotate: this.props.rotation}
                 ]
           }}>
           {this.props.children}
