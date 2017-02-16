@@ -118,8 +118,7 @@ export default class ViewTransformer extends React.Component {
         {...this.props}
         {...gestureResponder}
         ref={'innerViewRef'}
-        onLayout={this.onLayout.bind(this)}
-        collapsable={false}>
+        onLayout={this.onLayout.bind(this)}>
         <View
           style={{
             flex: 1,
