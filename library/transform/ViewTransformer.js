@@ -115,7 +115,7 @@ export default class ViewTransformer extends React.Component {
 
     return (
       <View
-        {...this.props}
+        style={this.props.style}
         {...gestureResponder}
         ref={'innerViewRef'}
         onLayout={this.onLayout.bind(this)}>
